@@ -1,0 +1,88 @@
+{
+  "builder": {
+    "properties": {
+      "id": {
+        "type": "long"
+      },
+      "name": {
+        "type": "text"
+      },
+      "cid": {
+        "type": "text"
+      },
+      "residenceAddr": {
+        "type": "text"
+      },
+      "phoneNumber": {
+        "type": "text"
+      },
+      "currAddr": {
+        "type": "text"
+      },
+      "gender": {
+        "type": "text"
+      },
+      "age": {
+        "type": "long"
+      },
+      "phoneMac": {
+        "type": "text"
+      },
+      "transportationCard": {
+        "type": "text"
+      },
+      "transportation": {
+        "type": "text"
+      },
+      "birthday": {
+        "type": "long"
+      },
+      "recentSnapTime": {
+        "type": "long"
+      },
+      "personFileCreateTime": {
+        "type": "long"
+      },
+      "imageCount": {
+        "type": "long"
+      },
+      "avatarUrl": {
+        "type": "text"
+      },
+      "bigImageUrl": {
+        "type": "text"
+      },
+      "smallImageUrl": {
+        "type": "text"
+      },
+      "targetRect": {
+        "type": "text"
+      },
+      "algoVersion": {
+        "type": "text"
+      },
+      "createTime": {
+        "type": "long"
+      },
+      "createBy": {
+        "type": "text"
+      },
+      "modifyTime": {
+        "type": "long"
+      },
+      "modifyBy": {
+        "type": "text"
+      },
+      "isDeleted": {
+        "type": "long"
+      },
+      "query": {
+        "properties": {
+          "match_all": {
+            "type": "object"
+          }
+        }
+      }
+    }
+  }
+}
